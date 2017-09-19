@@ -1,0 +1,33 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
+
+.slide-enter-active {
+  animation: slide-in 500ms ease-out;
+}
+.slide-leave-active {
+  animation: slide-out 500ms ease-out;
+}
+@keyframes slide-in {
+    from {
+      transform: translateY(30px);
+      opacity: 0
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+}
+@keyframes slide-out {
+    from {
+      transform: traslateX(0px);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+}

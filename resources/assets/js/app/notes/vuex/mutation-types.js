@@ -1,0 +1,10 @@
+export const GET_NOTE = 'GET_NOTE';
+export const GET_ALL_NOTES = 'GET_ALL_NOTES';
+export const SET_CURRENT_NOTE = 'SET_CURRENT_NOTE';
+export const SET_UPDATED_AT = 'SET_UPDATED_AT';
+export const SET_SAVE_DEBOUNCE = 'SET_SAVE_DEBOUNCE';
+export const STOP_SAVE_DEBOUNCE = 'STOP_SAVE_DEBOUNCE';
+export const CLEAR_NOTE = 'CLEAR_NOTE';
+export const ADD_NOTE_TO_LIST = 'ADD_NOTE_TO_LIST';
+export const REMOVE_NOTE_FROM_LIST = 'REMOVE_NOTE_FROM_LIST';
+export const UPDATE_NOTES = 'UPDATE_NOTES';
